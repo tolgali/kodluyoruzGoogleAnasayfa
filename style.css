@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: blue;
+}
+
+
+.container {
+    width: 1210px;
+    margin: 8px auto;
+}
+
+/* Header - START */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* Header - END */
+
+/* Section Search - START */
+
+section.search {
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+section.search input.search-input {
+    width: 317px;
+    height: 21px;
+}
+
+section.search input.btn {
+    padding: 1px 6px;
+}
+
+/* Section Search - END */
+
+/* Main Section - START */
+
+section div.main-section {
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+
+}
+
+section div.main-section div.section-left {
+    width: 445px;
+    background-color: rgb(126, 229, 218);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+section div.main-section div.section-mid {
+    width: 237px;
+    background-color: rgb(112, 204, 194);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+}
+
+section div.main-section div.section-right {
+    width: 522px;
+    background-color: rgb(98, 179, 170);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+}
+
+section div.main-section div.section-right input.email {
+    padding: 1px 2px;
+    width: 170px;
+    margin: 0 auto;
+
+}
+
+section div.main-section div.section-right input.email::placeholder {
+    color: black;
+}
+
+section div.main-section div.section-right div.sub input {
+    padding: 1px 6px;
+    margin-right: 6px;
+}
+
+/* Main Section - END */
+
+/* Footer - START */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: small;
+}
+
+/* Footer - END */
